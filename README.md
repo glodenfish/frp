@@ -16,8 +16,8 @@ https://github-releases.githubusercontent.com/500093/8ade6780-878a-11eb-89b9-640
 # step 2 :
 ref: https://blog.csdn.net/hubz131/article/details/97180597  this document tells you how to make the exe file to windows service.
 
-[frpc download](https://github.com/glodenfish/frp/edit/main/README.md)
-
+[frp_0.37.0_windows_amd64.zip](https://github.com/glodenfish/frp/edit/main/README.md)
+[frp_0.37.0_windows_amd64_win10_service.rar](https://github.com/glodenfish/frp/edit/main/README.md)
 # step 3 :
 make configuration for your frp client. as follows:
 
