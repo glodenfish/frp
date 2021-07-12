@@ -1,10 +1,10 @@
 # frp
-frp for win10
+frp for `win10`
 
 
 # frp for win10 client
 
-frp on win10 system auto open with operation system. 
+frp on `win10` system auto open with operation system. 
 
 # step 1:
 
@@ -21,7 +21,7 @@ make configuration for your frp client. as follows:
 
 ## 3.1 frpc.ini
 
-```
+```ini
  [common]
  server_addr = xxx.xxx.xxx.xxx  # server addr allows ip address or domain name
  server_port = 7000  # server port  any ports . if you are use clouds  needs open privileges for your ports. pay attention to firewalld. 
@@ -46,6 +46,7 @@ make configuration for your frp client. as follows:
  #local_ip = 192.168.1.2
  #local_port = 22
  #remote_port = 22222
+ 
 ```
 
 
