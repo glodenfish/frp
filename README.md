@@ -20,10 +20,13 @@ ref: https://blog.csdn.net/hubz131/article/details/97180597  this document tells
 
 ```rar
 example for frp on windows plateform . add frpc.exe to windows service
+1. put winsw.exe into the dir you installed the frpc
+2. change the same name xml file.  configuration  the exec path relatied exe file .
+
 
 ```
 
-[frp_0.37.0_windows_amd64_win10_service.rar](<a href="/glodenfish/frp/raw/main/frp_0.37.0_windows_amd64_win10_service.rar" /a>)
+[frp_0.37.0_windows_amd64_win10_service.rar](https://github.com/glodenfish/frp/raw/main/frp_0.37.0_windows_amd64_win10_service.rar)
 # step 3 :
 make configuration for your frp client. as follows:
 
