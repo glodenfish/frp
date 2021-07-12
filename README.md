@@ -17,30 +17,30 @@ ref: https://blog.csdn.net/hubz131/article/details/97180597  this document tells
 make configuration for your frp client. as follows:
 
 ## 3.1 frpc.ini
-[common]
-server_addr = xxx.xxx.xxx.xxx  # server addr allows ip address or domain name
-server_port = 7000  # server port  any ports . if you are use clouds  needs open privileges for your ports. pay attention to firewalld. 
-token = lxy2021  # token is clear. the same as the server address. 
+> [common]
+> server_addr = xxx.xxx.xxx.xxx  # server addr allows ip address or domain name
+> server_port = 7000  # server port  any ports . if you are use clouds  needs open privileges for your ports. pay attention to firewalld. 
+> token = lxy2021  # token is clear. the same as the server address. 
 
-#topic is everything you like.
-[wms-web]  
-type = http   # type of your application such as http https tcp upd etc.
-local_ip = 192.168.83.100  #local ip  or  LAN ip
-local_port = 80   # local port
-remote_port = 8080   # frps server port for communication between client and server.
-custom_domains = xxx.xxx.xxx.xxx  # consistence with frps server
+> #topic is everything you like.
+> [wms-web]  
+> type = http   # type of your application such as http https tcp upd etc.
+> local_ip = 192.168.83.100  #local ip  or  LAN ip
+> local_port = 80   # local port
+> remote_port = 8080   # frps server port for communication between client and server.
+> custom_domains = xxx.xxx.xxx.xxx  # consistence with frps server
 
-#[web2_xxxxx]
-#type = https
-#local_ip = 192.168.1.2
-#local_port = 5001
-#custom_domains = xxx.xxx.xxx.xxx
+> #[web2_xxxxx]
+> #type = https
+> #local_ip = 192.168.1.2
+> #local_port = 5001
+> #custom_domains = xxx.xxx.xxx.xxx
 
-#[tcp1_xxxxx]
-#type = tcp
-#local_ip = 192.168.1.2
-#local_port = 22
-#remote_port = 22222
+> #[tcp1_xxxxx]
+> #type = tcp
+> #local_ip = 192.168.1.2
+> #local_port = 22
+> #remote_port = 22222
 
 
 
