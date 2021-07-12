@@ -23,7 +23,7 @@ example for frp on windows plateform . add frpc.exe to windows service
 
 ```
 
-[frp_0.37.0_windows_amd64_win10_service.rar](https://github.com/glodenfish/frp/blob/main/frp_0.37.0_windows_amd64_win10_service.rar)
+[frp_0.37.0_windows_amd64_win10_service.rar](<a href="/glodenfish/frp/raw/main/frp_0.37.0_windows_amd64_win10_service.rar" /a>)
 # step 3 :
 make configuration for your frp client. as follows:
 
